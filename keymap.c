@@ -23,14 +23,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,   KC_Q,     KC_W,     KC_E,  KC_R,  KC_T,  KC_Y,    KC_U,  KC_I,  KC_O,     KC_P,     KC_LBRC,  KC_RBRC,         \
     KC_CAPS,  KC_A,     KC_S,     KC_D,  KC_F,  KC_G,  KC_H,    KC_J,  KC_K,  KC_L,     KC_SCLN,  KC_QUOT,  KC_NUHS, KC_ENT, \
     KC_LSFT,  MO(1),    KC_Z,     KC_X,  KC_C,  KC_V,  KC_B,    KC_N,  KC_M,  KC_COMM,  KC_DOT,   KC_SLSH,           KC_RSFT,\
-    KC_LCTL,  KC_LALT,  KC_LGUI,                       KC_SPC,                          KC_LEFT,  KC_UP,    KC_DOWN, KC_RGHT),
+    KC_LCTL,  KC_LALT,  KC_LGUI,                       KC_SPC,                          KC_RGUI,  KC_RALT,    MO(1),   KC_LCTL),
 
 [1] = LAYOUT_60_iso( /* FN */
     KC_GESC,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_DEL ,\
     RGB_TOG,  RGB_HUI,  RGB_SAI,  RGB_VAI,  RGB_MOD,  RGB_SPI,  KC_NO,    KC_NO,    KC_UP,    KC_NO,    KC_NO,    KC_NO,    RESET     ,          \
     KC_NO,    RGB_HUD,  RGB_SAD,  RGB_VAD,  RGB_RMOD, RGB_SPD,  KC_NO,    KC_LEFT,  KC_DOWN,  KC_RGHT,  KC_NO,    KC_NO,    KC_NO,    KC_NO,\
     KC_NO,    MO(1),    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,    KC_NO,              KC_NO,\
-    KC_VOLU,  KC_VOLD,  KC_MUTE,                                KC_TRNS,                                KC_RGUI,  KC_RALT,  KC_PGUP,  KC_PGDOWN),
+    KC_VOLU,  KC_VOLD,  KC_MUTE,                                KC_TRNS,                                KC_RGUI,  KC_RALT,  MO(1),  KC_LCTL),
 };
 
 void matrix_init_user(void) {
