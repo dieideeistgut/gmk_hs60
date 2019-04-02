@@ -3,5 +3,7 @@
 
 #include "../../config.h"
 #define RGB_MATRIX_KEYPRESSES
+#undef RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_DISABLE_WHEN_USB_SUSPENDED true
 
 #endif
